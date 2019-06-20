@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="design-properties" content="{&quot;RULERS_VISIBLE&quot;:true,&quot;GUIDELINES_VISIBLE&quot;:false,&quot;SNAP_TO_OBJECTS&quot;:true,&quot;SNAP_TO_GRID&quot;:true,&quot;SNAPPING_DISTANCE&quot;:10,&quot;GENERATE_GETTERS&quot;:false,&quot;JAVA_SOURCES_ROOT&quot;:&quot;src/main/java&quot;,&quot;THEME&quot;:&quot;apptheme&quot;}">
+  <meta name="vaadin-version" content="8.0.5">
+ </head>
+ <body>
+  <vaadin-vertical-layout style-name="crud-template" spacing="false" responsive size-full margin="false">
+   <vaadin-horizontal-layout style-name="top-bar" spacing="false" width-full height="50px">
+    <vaadin-horizontal-layout spacing="false" width-full :middle :expand>
+     <vaadin-text-field icon="fonticon://FontAwesome/f002" style-name="small inline-icon search" id="search" placeholder="Search" width-full _id="search"></vaadin-text-field>
+    </vaadin-horizontal-layout>
+    <vaadin-button icon="fonticon://FontAwesome/f067" style-name="borderless" id="add" plain-text _id="add" :middle :right>
+      Add new 
+    </vaadin-button>
+   </vaadin-horizontal-layout>
+   <vaadin-css-layout style-name="content" size-full :expand>
+    <vaadin-css-layout style-name="listCredit" id="listParent" size-full _id="listParent">
+     <vaadin-grid id="list" size-full data-item-type="ac.daffodil.amirul.backend.data.entity.Product" _id="list"></vaadin-grid>
+    </vaadin-css-layout>
+    <vaadin-vertical-layout style-name="inspect" spacing="false" id="form" size-full margin="false" _id="form">
+     <vaadin-css-layout style-name="edit" size-full :expand>
+      <vaadin-css-layout style-name="section half" width-full>
+       <vaadin-horizontal-layout id="reportHeader" width-full _id="reportHeader">
+        <vaadin-label style-name="h4 colored" id="orderId" plain-text _id="orderId">
+          #182 
+        </vaadin-label>
+        <vaadin-label style-name="h4 colored" id="stateLabel" width-full plain-text _id="stateLabel" :expand>
+          Credit Voucher 
+        </vaadin-label>
+        <vaadin-label style-name="header" width-full plain-text></vaadin-label>
+       </vaadin-horizontal-layout>
+      </vaadin-css-layout>
+      <vaadin-css-layout style-name="section half" width-full>
+       <vaadin-horizontal-layout style-name="half" width-full>
+        <vaadin-date-field lenient id="date" placeholder="Date" width="180px" _id="date"></vaadin-date-field>
+        <vaadin-horizontal-layout width="96.91%" height="37px" :expand>
+         <vaadin-label id="voucherLabel" width="92px" height-full plain-text _id="voucherLabel" :right>
+           Voucher No. 
+         </vaadin-label>
+         <vaadin-text-field id="txtVoucher" width="182px" _id="txtVoucher" :right></vaadin-text-field>
+        </vaadin-horizontal-layout>
+       </vaadin-horizontal-layout>
+      </vaadin-css-layout>
+      <vaadin-css-layout style-name="section half" width-full>
+       <vaadin-horizontal-layout style-name="half" width-full>
+        <vaadin-label id="lblCreditedAccount" width="282px" height="37px" plain-text _id="lblCreditedAccount">
+          Account to be Credited 
+        </vaadin-label>
+        <vaadin-combo-box empty-selection-allowed="false" id="accountToBeCredited" text-input-allowed="false" width="210px" data-item-type="java.time.LocalTime" _id="accountToBeCredited" :middle :right :expand></vaadin-combo-box>
+       </vaadin-horizontal-layout>
+       <vaadin-horizontal-layout style-name="half" width-full>
+        <vaadin-label id="lblCreditedAmount" width="83px" height="37px" plain-text _id="lblCreditedAmount" :right>
+          Amount 
+        </vaadin-label>
+        <vaadin-text-field id="txtCreditedAmount" width="179px" _id="txtCreditedAmount" :right></vaadin-text-field>
+       </vaadin-horizontal-layout>
+      </vaadin-css-layout>
+      <vaadin-css-layout style-name="section half" width-full>
+       <vaadin-horizontal-layout style-name="half" width-full>
+        <vaadin-label id="lblDebitedAccount" width="282px" height="37px" plain-text _id="lblDebitedAccount">
+          Account to be Debited 
+        </vaadin-label>
+        <vaadin-combo-box empty-selection-allowed="false" id="accountToBeDebited" text-input-allowed="false" width="210px" data-item-type="java.time.LocalTime" _id="accountToBeDebited" :middle :right :expand></vaadin-combo-box>
+       </vaadin-horizontal-layout>
+       <vaadin-horizontal-layout style-name="half" width-full>
+        <vaadin-label id="lblDebitedAmount" width="83px" height="37px" plain-text _id="lblDebitedAmount" :right>
+          Amount 
+        </vaadin-label>
+        <vaadin-text-field id="txtDebitedAmount" width="179px" _id="txtDebitedAmount" :right></vaadin-text-field>
+       </vaadin-horizontal-layout>
+      </vaadin-css-layout>
+      <vaadin-css-layout style-name="order-form responsive" responsive width-full>
+       <vaadin-label style-name="header" width-full plain-text></vaadin-label>
+       <vaadin-horizontal-layout style-name="half" width-full>
+        <vaadin-label id="lblNarration" width="83px" height="37px" plain-text _id="lblNarration">
+          Narration 
+        </vaadin-label>
+        <vaadin-text-area id="txtNarration" width="252px" height="37px" _id="txtNarration" :middle :right></vaadin-text-area>
+       </vaadin-horizontal-layout>
+       <vaadin-horizontal-layout style-name="half" width-full></vaadin-horizontal-layout>
+       <vaadin-label style-name="header" width-full plain-text></vaadin-label>
+       <vaadin-css-layout style-name="buttons" width-full>
+        <vaadin-button icon="fonticon://Vaadin-Icons/e7ad" style-name="cancel" id="btnCancel" _id="btnCancel">
+          Cancel 
+        </vaadin-button>
+        <vaadin-button icon="fonticon://Vaadin-Icons/e6ec" style-name="primary icon-align-right" id="ok" plain-text _id="ok">
+          Save 
+        </vaadin-button>
+       </vaadin-css-layout>
+      </vaadin-css-layout>
+     </vaadin-css-layout>
+     <vaadin-horizontal-layout style-name="buttons border-top" width-full height="50px">
+      <vaadin-button style-name="small primary" id="update" plain-text _id="update" :middle>
+        Update 
+      </vaadin-button>
+      <vaadin-button style-name="small" id="cancel" plain-text _id="cancel" :middle :center>
+        Cancel 
+      </vaadin-button>
+      <vaadin-button style-name="small danger" id="delete" plain-text _id="delete" :middle :right :expand>
+        Delete 
+      </vaadin-button>
+     </vaadin-horizontal-layout>
+    </vaadin-vertical-layout>
+   </vaadin-css-layout>
+  </vaadin-vertical-layout>
+ </body>
+</html>

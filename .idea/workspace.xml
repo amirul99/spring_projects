@@ -1,0 +1,1114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bfb7f521-f780-4ecd-afb6-8fab80a02a6a" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="my_starter_project" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="DebitEditView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/debitvoucher/DebitEditView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="50" column="10" lean-forward="false" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpringLocalModels/module=my_starter_project" pinned="false" current-in-tab="false">
+        <entry file="uml://SpringLocalModels/module=my_starter_project">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>SpringLocalModels</ID>
+              <OriginalElement>module=my_starter_project</OriginalElement>
+              <nodes>
+                <node x="0.0" y="67.5">module=my_starter_project</node>
+                <node x="215.5" y="39.30555555555556">fileset=my_starter_project/Application</node>
+                <node x="395.0" y="67.5">ac.daffodil.amirul.app.Application</node>
+                <node x="588.5" y="59.99999999999999">ac.daffodil.amirul.app.security.SecurityConfig</node>
+                <node x="799.0" y="59.99999999999999">org.springframework.security.config.annotation.web.configuration.EnableWebSecurity</node>
+                <node x="560.0" y="0.0">ac.daffodil.amirul.app.ApplicationConfiguration</node>
+                <node x="569.5" y="120.0">org.springframework.data.jpa.repository.config.EnableJpaRepositories</node>
+                <node x="600.0" y="180.0">org.springframework.boot.autoconfigure.domain.EntityScan</node>
+                <node x="586.0" y="240.0">org.vaadin.spring.events.annotation.EnableEventBus</node>
+                <node x="567.5" y="300.0">org.springframework.boot.autoconfigure.SpringBootApplication</node>
+                <node x="201.0" y="99.30555555555556">fileset=my_starter_project/Application MVC</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="module=my_starter_project" target="fileset=my_starter_project/Application MVC">
+                  <point x="60.5" y="5.0" />
+                  <point x="-57.0" y="-0.0" />
+                </edge>
+                <edge source="ac.daffodil.amirul.app.Application" target="ac.daffodil.amirul.app.security.SecurityConfig">
+                  <point x="42.5" y="-0.0" />
+                  <point x="-51.0" y="7.5" />
+                </edge>
+                <edge source="ac.daffodil.amirul.app.Application" target="org.springframework.boot.autoconfigure.domain.EntityScan">
+                  <point x="42.5" y="4.444444444444457" />
+                  <point x="560.0" y="190.0" />
+                  <point x="-39.5" y="-0.0" />
+                </edge>
+                <edge source="fileset=my_starter_project/Application" target="ac.daffodil.amirul.app.Application">
+                  <point x="42.5" y="-0.0" />
+                  <point x="315.0" y="49.30555555555556" />
+                  <point x="-42.5" y="-5.0" />
+                </edge>
+                <edge source="ac.daffodil.amirul.app.Application" target="org.springframework.boot.autoconfigure.SpringBootApplication">
+                  <point x="42.5" y="8.888888888888914" />
+                  <point x="-72.0" y="-0.0" />
+                </edge>
+                <edge source="fileset=my_starter_project/Application MVC" target="ac.daffodil.amirul.app.Application">
+                  <point x="57.0" y="-0.0" />
+                  <point x="-42.5" y="5.0" />
+                </edge>
+                <edge source="ac.daffodil.amirul.app.security.SecurityConfig" target="org.springframework.security.config.annotation.web.configuration.EnableWebSecurity">
+                  <point x="51.0" y="-0.0" />
+                  <point x="-62.5" y="-0.0" />
+                </edge>
+                <edge source="ac.daffodil.amirul.app.Application" target="org.springframework.data.jpa.repository.config.EnableJpaRepositories">
+                  <point x="42.5" y="2.2222222222222285" />
+                  <point x="-70.0" y="-0.0" />
+                </edge>
+                <edge source="ac.daffodil.amirul.app.Application" target="ac.daffodil.amirul.app.ApplicationConfiguration">
+                  <point x="42.5" y="-8.888888888888886" />
+                  <point x="-79.5" y="-0.0" />
+                </edge>
+                <edge source="ac.daffodil.amirul.app.Application" target="org.vaadin.spring.events.annotation.EnableEventBus">
+                  <point x="42.5" y="6.666666666666686" />
+                  <point x="560.0" y="250.0" />
+                  <point x="-53.5" y="-0.0" />
+                </edge>
+                <edge source="module=my_starter_project" target="fileset=my_starter_project/Application">
+                  <point x="60.5" y="-5.0" />
+                  <point x="201.0" y="49.30555555555556" />
+                  <point x="-42.5" y="-0.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.9661016949152542" x="238.42105263157896" y="100.4824561403509" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Show filesets as groups</Category>
+              </Categories>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DebitService2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/backend/service/DebitService2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="59" column="54" lean-forward="true" selection-start-line="59" selection-start-column="54" selection-end-line="59" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreditService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/backend/service/CreditService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/backend/service/OrderService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1360">
+              <caret line="84" column="5" lean-forward="true" selection-start-line="73" selection-start-column="4" selection-end-line="84" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/MainView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="39" column="13" lean-forward="false" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+        <option value="Designer2Companion" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>crud</find>
+      <find>order-</find>
+      <find>insp</find>
+      <find>order-list</find>
+      <find>order-form</find>
+      <find>list</find>
+      <find>inspect</find>
+    </findStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/backend/data/entity/Groups2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/debitvoucher/LedgerComboBoxDataProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/debitvoucher/LedgerComboBox.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/ac/daffodil/amirul/ui/view/admin/ledger/LedgerViewDesign.html" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/ledger/LedgerViewDesign.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/backend/data/entity/Ledger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/backend/data/entity/Ledger2.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/ledger/LedgerView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/backend/DebitRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/components/DebitDataProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/components/DebitGrid.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/ac/daffodil/amirul/ui/view/admin/debitvoucher/DebitFrontViewDesign.html" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/debitvoucher/DebitView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/debitvoucher/DebitPresenter2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/backend/service/DebitService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/debitvoucher/DebitDataProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/ac/daffodil/amirul/ui/view/admin/debitvoucher/DebitEditViewDesign2.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/ac/daffodil/amirul/ui/view/admin/debitvoucher/DebitViewDesign3.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/apptheme/styles.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/ac/daffodil/amirul/ui/view/admin/debitvoucher/DebitViewDesign2.html" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/debitvoucher/DebitFrontViewDesign2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/debitvoucher/DebitFrontView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/debitvoucher/DebitDataProvider2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/debitvoucher/DebitDataPresenter2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/debitvoucher/DebitFrontView2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/backend/data/entity/Debit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/backend/DebitRepository2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/components/DebitGridDataProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/debitvoucher/DebitEditDataProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/ac/daffodil/amirul/ui/view/admin/debitvoucher/DebitEditViewDesign.html" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/AbstractCrudPresenter2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/AbstractCrudView2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/debitvoucher/DebitEditPresenter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/AbstractCrudView3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/AbstractCrudPresenter3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/backend/CreditRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/backend/service/CreditService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/creditvoucher/LedgerComboBoxDataProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/creditvoucher/CreditFrontViewDesign.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/creditvoucher/CreditEditViewDesign.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/creditvoucher/DebitFrontView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/creditvoucher/CreditFrontView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/creditvoucher/CreditEditView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/creditvoucher/CreditDataPresenter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/creditvoucher/CreditDataProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/creditvoucher/CreditEditDataProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/creditvoucher/CreditEditPresenter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/debitvoucher/DebitEditView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/MainView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/backend/service/DebitService2.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="698" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="my_starter_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my_starter_project.zip_expanded" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my_starter_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my_starter_project.zip_expanded" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my_starter_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my_starter_project.zip_expanded" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my_starter_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my_starter_project.zip_expanded" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my_starter_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my_starter_project.zip_expanded" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="amirul" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my_starter_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my_starter_project.zip_expanded" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="amirul" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my_starter_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my_starter_project.zip_expanded" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="amirul" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my_starter_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my_starter_project.zip_expanded" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="amirul" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="D:/Vaadin/my__project_10" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="ToolWindowRun.ShowToolbar" value="false" />
+    <property name="designer-theme-cache.timestamp" value="1517212393785" />
+    <property name="designer-theme-cache.name" value="apptheme" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ac.daffodil.amirul.ui.view.admin.creditvoucher" />
+      <recent name="ac.daffodil.amirul.backend.service" />
+      <recent name="ac.daffodil.amirul.backend" />
+      <recent name="ac.daffodil.amirul.ui.view.admin" />
+      <recent name="ac.daffodil.amirul.ui.view.admin.debitvoucher" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Eclipse\my_starter_project.zip_expanded\src\main\java\ac\daffodil\amirul\ui\view\admin\creditvoucher" />
+      <recent name="D:\Eclipse\my_starter_project.zip_expanded\src\main\resources\ac\daffodil\amirul\ui\view\admin\debitvoucher" />
+      <recent name="D:\Eclipse\my_starter_project.zip_expanded\src\main\java\ac\daffodil\amirul\ui\view\admin\group2" />
+      <recent name="D:\Eclipse\my_starter_project.zip_expanded\src\main\resources\ac\daffodil\amirul\ui\view\admin\group2" />
+      <recent name="D:\Eclipse\my_starter_project.zip_expanded\src\main\java\ac\daffodil\amirul\ui\view\admin" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ac.daffodil.amirul.app.Application" />
+      <module name="my_starter_project" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bfb7f521-f780-4ecd-afb6-8fab80a02a6a" name="Default" comment="" />
+      <created>1515515080454</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1515515080454</updated>
+      <workItem from="1515515088250" duration="12685000" />
+      <workItem from="1515557145713" duration="9703000" />
+      <workItem from="1515568674289" duration="1702000" />
+      <workItem from="1515573375098" duration="322000" />
+      <workItem from="1515608179723" duration="3196000" />
+      <workItem from="1515693017147" duration="9544000" />
+      <workItem from="1515771485157" duration="11629000" />
+      <workItem from="1516024327249" duration="7769000" />
+      <workItem from="1516034896138" duration="3563000" />
+      <workItem from="1516122946204" duration="25455000" />
+      <workItem from="1516278874560" duration="21186000" />
+      <workItem from="1516603824240" duration="22184000" />
+      <workItem from="1516690487077" duration="3331000" />
+      <workItem from="1516772696439" duration="2688000" />
+      <workItem from="1516778352026" duration="7790000" />
+      <workItem from="1516890303601" duration="30483000" />
+      <workItem from="1516985099483" duration="7356000" />
+      <workItem from="1517162173465" duration="11648000" />
+      <workItem from="1517200464197" duration="28299000" />
+      <workItem from="1518530984935" duration="1190000" />
+      <workItem from="1518537751930" duration="4659000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="226382000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3990228" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.4969743" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25811437" sideWeight="0.49394855" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31013617" sideWeight="0.49515906" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2263158" sideWeight="0.50651467" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22012103" sideWeight="0.50484097" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="com.vaadin.designer2.intellij.outline.OutlineToolWindowManager.toolWindow" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32753405" sideWeight="0.45833334" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="com.vaadin.designer2.intellij.palette.PaletteToolWindowManager.toolWindow" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32753405" sideWeight="0.5416667" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282572" sideWeight="0.5031104" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="com.vaadin.designer2.intellij.outline.OutlineToolWindowManager.toolWindow" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32753405" sideWeight="0.45595053" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="com.vaadin.designer2.intellij.palette.PaletteToolWindowManager.toolWindow" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32753405" sideWeight="0.54404944" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3990228" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25811437" sideWeight="0.4968896" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30937973" sideWeight="0.49515906" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2263158" sideWeight="0.50651467" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22012103" sideWeight="0.50484097" order="6" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="com.vaadin.designer2.intellij.settings.SizePresetsSettingsComponent">
+    <option name="sizePresets">
+      <list>
+        <SizePreset>
+          <option name="caption" value="Phone" />
+          <option name="height" value="568" />
+          <option name="width" value="320" />
+        </SizePreset>
+        <SizePreset>
+          <option name="caption" value="Tablet" />
+          <option name="height" value="1024" />
+          <option name="width" value="768" />
+        </SizePreset>
+        <SizePreset>
+          <option name="caption" value="Desktop" />
+          <option name="height" value="900" />
+          <option name="width" value="1440" />
+        </SizePreset>
+      </list>
+    </option>
+  </component>
+  <component name="designer2.settings">
+    <option name="autodetectServerAddress" value="true" />
+    <option name="serverIp" value="localhost" />
+    <option name="serverPort" value="17282" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/debitvoucher/DebitFrontView.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/debitvoucher/DebitView.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/debitvoucher/DebitPresenter2.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/backend/DebitRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/backend/LedgerRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/ledger/LedgerView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="110" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="136" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/debitvoucher/DebitDataProvider.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/backend/data/entity/Debit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-64">
+          <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/backend/DebitRepository2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/components/DebitGridDataProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="52" lean-forward="false" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/debitvoucher/DebitEditViewDesign2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-53">
+          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ac/daffodil/amirul/ui/view/admin/debitvoucher/DebitEditViewDesign.html">
+      <provider selected="true" editor-type-id="com.vaadin.designer2.intellij.webEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/debitvoucher/DebitDataPresenter2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/debitvoucher/DebitDataProvider2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/AbstractCrudPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="28" column="22" lean-forward="false" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/debitvoucher/DebitFrontView2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="98" column="5" lean-forward="false" selection-start-line="96" selection-start-column="14" selection-end-line="98" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/orderedit/OrderEditView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1622">
+          <caret line="127" column="45" lean-forward="true" selection-start-line="127" selection-start-column="45" selection-end-line="127" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/orderedit/OrderEditPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2329">
+          <caret line="41" column="13" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/AbstractCrudView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="97" column="45" lean-forward="false" selection-start-line="97" selection-start-column="45" selection-end-line="97" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/AbstractCrudPresenter2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="178" column="0" lean-forward="false" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/debitvoucher/DebitEditViewDesign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/AbstractCrudView3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1689">
+          <caret line="147" column="6" lean-forward="false" selection-start-line="147" selection-start-column="6" selection-end-line="147" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/AbstractCrudView2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="64" column="6" lean-forward="false" selection-start-line="64" selection-start-column="6" selection-end-line="64" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/debitvoucher/DebitEditPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="18" column="62" lean-forward="false" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/AbstractCrudPresenter3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2278">
+          <caret line="176" column="0" lean-forward="false" selection-start-line="176" selection-start-column="0" selection-end-line="176" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/backend/service/LedgerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="38" column="43" lean-forward="false" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/debitvoucher/DebitEditDataProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="37" column="43" lean-forward="false" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/group/GroupAdminDataProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/backend/service/GroupService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/backend/service/CrudService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/backend/data/entity/Credit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="109" column="5" lean-forward="true" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/backend/CreditRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/creditvoucher/CreditAdminView.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/creditvoucher/LedgerComboBox.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/creditvoucher/LedgerComboBoxDataProvider.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/creditvoucher/CreditFrontViewDesign.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/creditvoucher/CreditEditViewDesign.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/creditvoucher/CreditFrontView.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/creditvoucher/CreditDataPresenter.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/creditvoucher/CreditDataProvider.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/creditvoucher/CreditEditDataProvider.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/creditvoucher/CreditEditPresenter.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/creditvoucher/CreditEditView.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/view/admin/debitvoucher/DebitEditView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="50" column="10" lean-forward="false" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/ui/MainView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="39" column="13" lean-forward="false" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/D:/Eclipse/my_starter_project.zip_expanded">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$</OriginalElement>
+          <nodes>
+            <node x="0.0" y="113.0">$PROJECT_DIR$/src/main/webapp/VAADIN/themes/apptheme/favicon.ico</node>
+            <node x="228.0" y="0.0">$PROJECT_DIR$/src/main/webapp/VAADIN/themes/apptheme/icon-192.png</node>
+            <node x="212.0" y="270.0">$PROJECT_DIR$/src/main/webapp/VAADIN/themes/apptheme/icon-96.png</node>
+            <node x="190.0" y="133.0">$PROJECT_DIR$/src/main/webapp/login.html</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="$PROJECT_DIR$/src/main/webapp/login.html" target="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/apptheme/favicon.ico">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/login.html" target="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/apptheme/icon-96.png">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/login.html" target="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/apptheme/icon-192.png">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-21.5" y="92.0" />
+          <SelectedNodes>
+            <node>$PROJECT_DIR$/src/main/webapp/login.html</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MODULES/mdl-my_starter_project">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MODULES</ID>
+          <OriginalElement>mdl-my_starter_project</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="89.5" y="14.5" />
+          <SelectedNodes />
+          <Categories />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://SpringLocalModels/module=my_starter_project">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>SpringLocalModels</ID>
+          <OriginalElement>module=my_starter_project</OriginalElement>
+          <nodes>
+            <node x="0.0" y="67.5">module=my_starter_project</node>
+            <node x="215.5" y="39.30555555555556">fileset=my_starter_project/Application</node>
+            <node x="395.0" y="67.5">ac.daffodil.amirul.app.Application</node>
+            <node x="588.5" y="59.99999999999999">ac.daffodil.amirul.app.security.SecurityConfig</node>
+            <node x="799.0" y="59.99999999999999">org.springframework.security.config.annotation.web.configuration.EnableWebSecurity</node>
+            <node x="560.0" y="0.0">ac.daffodil.amirul.app.ApplicationConfiguration</node>
+            <node x="569.5" y="120.0">org.springframework.data.jpa.repository.config.EnableJpaRepositories</node>
+            <node x="600.0" y="180.0">org.springframework.boot.autoconfigure.domain.EntityScan</node>
+            <node x="586.0" y="240.0">org.vaadin.spring.events.annotation.EnableEventBus</node>
+            <node x="567.5" y="300.0">org.springframework.boot.autoconfigure.SpringBootApplication</node>
+            <node x="201.0" y="99.30555555555556">fileset=my_starter_project/Application MVC</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="module=my_starter_project" target="fileset=my_starter_project/Application MVC">
+              <point x="60.5" y="5.0" />
+              <point x="-57.0" y="-0.0" />
+            </edge>
+            <edge source="ac.daffodil.amirul.app.Application" target="ac.daffodil.amirul.app.security.SecurityConfig">
+              <point x="42.5" y="-0.0" />
+              <point x="-51.0" y="7.5" />
+            </edge>
+            <edge source="ac.daffodil.amirul.app.Application" target="org.springframework.boot.autoconfigure.domain.EntityScan">
+              <point x="42.5" y="4.444444444444457" />
+              <point x="560.0" y="190.0" />
+              <point x="-39.5" y="-0.0" />
+            </edge>
+            <edge source="fileset=my_starter_project/Application" target="ac.daffodil.amirul.app.Application">
+              <point x="42.5" y="-0.0" />
+              <point x="315.0" y="49.30555555555556" />
+              <point x="-42.5" y="-5.0" />
+            </edge>
+            <edge source="ac.daffodil.amirul.app.Application" target="org.springframework.boot.autoconfigure.SpringBootApplication">
+              <point x="42.5" y="8.888888888888914" />
+              <point x="-72.0" y="-0.0" />
+            </edge>
+            <edge source="fileset=my_starter_project/Application MVC" target="ac.daffodil.amirul.app.Application">
+              <point x="57.0" y="-0.0" />
+              <point x="-42.5" y="5.0" />
+            </edge>
+            <edge source="ac.daffodil.amirul.app.security.SecurityConfig" target="org.springframework.security.config.annotation.web.configuration.EnableWebSecurity">
+              <point x="51.0" y="-0.0" />
+              <point x="-62.5" y="-0.0" />
+            </edge>
+            <edge source="ac.daffodil.amirul.app.Application" target="org.springframework.data.jpa.repository.config.EnableJpaRepositories">
+              <point x="42.5" y="2.2222222222222285" />
+              <point x="-70.0" y="-0.0" />
+            </edge>
+            <edge source="ac.daffodil.amirul.app.Application" target="ac.daffodil.amirul.app.ApplicationConfiguration">
+              <point x="42.5" y="-8.888888888888886" />
+              <point x="-79.5" y="-0.0" />
+            </edge>
+            <edge source="ac.daffodil.amirul.app.Application" target="org.vaadin.spring.events.annotation.EnableEventBus">
+              <point x="42.5" y="6.666666666666686" />
+              <point x="560.0" y="250.0" />
+              <point x="-53.5" y="-0.0" />
+            </edge>
+            <edge source="module=my_starter_project" target="fileset=my_starter_project/Application">
+              <point x="60.5" y="-5.0" />
+              <point x="201.0" y="49.30555555555556" />
+              <point x="-42.5" y="-0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.9661016949152542" x="238.42105263157896" y="100.4824561403509" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Show filesets as groups</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/backend/service/CreditService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/backend/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="84" column="5" lean-forward="true" selection-start-line="73" selection-start-column="4" selection-end-line="84" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/daffodil/amirul/backend/service/DebitService2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="59" column="54" lean-forward="true" selection-start-line="59" selection-start-column="54" selection-end-line="59" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>my_starter_project:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>GWT</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>my_starter_project</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

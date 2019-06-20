@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="design-properties" content="{&quot;RULERS_VISIBLE&quot;:true,&quot;GUIDELINES_VISIBLE&quot;:false,&quot;SNAP_TO_OBJECTS&quot;:true,&quot;SNAP_TO_GRID&quot;:true,&quot;SNAPPING_DISTANCE&quot;:10,&quot;GENERATE_GETTERS&quot;:false,&quot;JAVA_SOURCES_ROOT&quot;:&quot;src/main/java&quot;,&quot;THEME&quot;:&quot;apptheme&quot;}">
+  <meta name="vaadin-version" content="8.0.5">
+  <meta name="package-mapping" content="ac_daffodil_amirul_ui_view_admin_debitvoucher:ac.daffodil.amirul.ui.view.admin.debitvoucher">
+ </head>
+ <body>
+  <vaadin-vertical-layout margin-top="false">
+   <vaadin-css-layout style-name="order-form responsive" responsive width-full>
+    <vaadin-horizontal-layout id="reportHeader" width-full _id="reportHeader">
+     <vaadin-label style-name="h4 colored" id="orderId" plain-text _id="orderId">
+       #182 
+     </vaadin-label>
+     <vaadin-label style-name="h3 colored" id="stateLabel" width-full plain-text _id="stateLabel" :expand>
+       Credit Voucher 
+     </vaadin-label>
+    </vaadin-horizontal-layout>
+    <vaadin-label style-name="header" width-full plain-text></vaadin-label>
+    <vaadin-horizontal-layout width-full>
+     <vaadin-date-field lenient id="date" placeholder="Date" width="180px" _id="date"></vaadin-date-field>
+     <vaadin-horizontal-layout width="73.08%" height="37px" :right :expand>
+      <vaadin-label id="voucherLabel" size-full plain-text _id="voucherLabel" :center :expand>
+        Voucher No. 
+      </vaadin-label>
+      <vaadin-text-field id="voucherNo" width="61.54%" _id="voucherNo" :middle :right :expand></vaadin-text-field>
+     </vaadin-horizontal-layout>
+    </vaadin-horizontal-layout>
+    <vaadin-horizontal-layout width-full>
+     <vaadin-label id="lblCreditedAccount" width-full height="37px" plain-text _id="lblDebitedAccount" :expand>
+       Account to be Debited 
+     </vaadin-label>
+     <ac_daffodil_amirul_ui_view_admin_debitvoucher-ledger-combo-box id="accountToBeCredited" width="210px" height="37px" _id="accountToBeDebited"></ac_daffodil_amirul_ui_view_admin_debitvoucher-ledger-combo-box>
+    </vaadin-horizontal-layout>
+    <vaadin-horizontal-layout width-full>
+     <vaadin-label id="lblCreditedAmount" width="83px" height="37px" plain-text _id="lblDebitedAmount" :right>
+       Amount 
+     </vaadin-label>
+     <vaadin-text-field id="txtCreditedAmount" width="179px" _id="txtDebitedAmount" :right></vaadin-text-field>
+    </vaadin-horizontal-layout>
+    <vaadin-horizontal-layout width-full>
+     <vaadin-label id="lblDebitedAccount" width-full height="37px" plain-text _id="lblCreditedAccount" :expand>
+       Account to be Credited 
+     </vaadin-label>
+     <ac_daffodil_amirul_ui_view_admin_debitvoucher-ledger-combo-box id="accountToBeDebited" width="210px" height="37px" _id="accountToBeCredited"></ac_daffodil_amirul_ui_view_admin_debitvoucher-ledger-combo-box>
+    </vaadin-horizontal-layout>
+    <vaadin-horizontal-layout width-full>
+     <vaadin-label id="lblDebitedAmount" width="83px" height="37px" plain-text _id="lblCreditedAmount" :right>
+       Amount 
+     </vaadin-label>
+     <vaadin-text-field id="txtDebitedAmount" width="179px" _id="txtCreditedAmount" :right></vaadin-text-field>
+    </vaadin-horizontal-layout>
+    <vaadin-label style-name="header" width-full plain-text></vaadin-label>
+    <vaadin-horizontal-layout width-full>
+     <vaadin-label id="lblNarration" width="83px" height="37px" plain-text _id="lblNarration">
+       Narration 
+     </vaadin-label>
+     <vaadin-text-area id="txtNarration" width-full height="37px" _id="txtNarration" :middle :right :expand></vaadin-text-area>
+    </vaadin-horizontal-layout>
+    <vaadin-horizontal-layout width-full></vaadin-horizontal-layout>
+    <vaadin-label style-name="header" width-full plain-text></vaadin-label>
+    <vaadin-css-layout style-name="buttons" width-full>
+     <vaadin-button icon="fonticon://Vaadin-Icons/e7ad" style-name="cancel" id="cancel" _id="cancel">
+       Cancel 
+     </vaadin-button>
+     <vaadin-button icon="fonticon://Vaadin-Icons/e6ec" style-name="primary icon-align-right" id="ok" plain-text _id="add">
+       Save 
+     </vaadin-button>
+    </vaadin-css-layout>
+   </vaadin-css-layout>
+  </vaadin-vertical-layout>
+ </body>
+</html>

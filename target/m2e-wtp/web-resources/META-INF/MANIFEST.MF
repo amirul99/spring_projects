@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: My Starter Project
+Implementation-Version: 1.0-SNAPSHOT
+Built-By: bi
+Implementation-Vendor-Id: ac.daffodil.amirul
+Build-Jdk: 1.8.0_151
+Implementation-URL: http://projects.spring.io/spring-boot/my_starter_p
+ roject/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

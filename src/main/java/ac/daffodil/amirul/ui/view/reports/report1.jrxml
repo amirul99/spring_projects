@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.6.0.final using JasperReports Library version 6.6.0  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report1" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="6d98ffd6-c27e-421f-85c4-a3a7b464746f">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="userid" class="java.lang.Long"/>
+	<field name="ledgerName" class="java.lang.String"/>
+	<field name="date" class="java.util.Date"/>
+	<field name="debit" class="java.lang.Float"/>
+	<field name="credit" class="java.lang.Float"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="69" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="48" splitType="Stretch">
+			<staticText>
+				<reportElement x="227" y="9" width="100" height="30" uuid="6b749775-e943-4be8-a8ef-bcb17b3bdbd4"/>
+				<textElement textAlignment="Center" markup="">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Ledger Report]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="49" splitType="Stretch">
+			<staticText>
+				<reportElement positionType="FixRelativeToBottom" x="20" y="10" width="100" height="30" uuid="32cdbed1-1b10-4777-aa8b-d31a87ab3a5e">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="fc0dc660-d9ff-479d-aa09-537bb88be977"/>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Ledger Name]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="140" y="10" width="100" height="30" uuid="3a094043-bb13-4126-a3b5-d33b2e0dbedb">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="7d91020c-4b7c-4498-bfb0-16b582a76e16"/>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Date]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="310" y="10" width="100" height="30" uuid="bf5b4ac2-a989-41f4-9196-f117803170ab">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="ebd33733-04bc-4883-a5a0-5de0e5f6daca"/>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Debit]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="460" y="10" width="100" height="30" uuid="c9f05887-ba3e-4c78-8179-d8f3461da6cf">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="44c1939f-f69c-48b8-a577-3a7c0066a0d4"/>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Credit]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="104" splitType="Stretch">
+			<textField>
+				<reportElement x="20" y="30" width="100" height="30" uuid="a008cb4f-47a9-4cfa-9dbd-e8d742359ed5">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="fc0dc660-d9ff-479d-aa09-537bb88be977"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{ledgerName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="140" y="30" width="100" height="30" uuid="6f927396-0a0b-4c6b-af92-9a508d0f9213">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="7d91020c-4b7c-4498-bfb0-16b582a76e16"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="310" y="30" width="100" height="30" uuid="a4c2ea09-974d-4528-aa06-7131445dc9bc">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="ebd33733-04bc-4883-a5a0-5de0e5f6daca"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{debit}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="460" y="30" width="100" height="30" uuid="c2770549-4af9-4652-8e6d-7a910e72977e">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="44c1939f-f69c-48b8-a577-3a7c0066a0d4"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{credit}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
